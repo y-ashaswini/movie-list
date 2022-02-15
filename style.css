@@ -152,3 +152,14 @@ body {
     color: #9733ff;
   }
 }
+
+@media (max-width: 450px) {
+  .poster-img {
+    max-width: 150px;
+  }
+
+  .btn-action,
+  .btn-thrill {
+    font-size: 0.8  rem;
+  }
+}
