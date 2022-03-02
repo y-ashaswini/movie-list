@@ -37,8 +37,8 @@ body {
 
 /* Inner Box */
 .box-inner {
-  margin: auto 10px;
-  padding: 10px;
+  margin: auto 0.2rem;
+  padding: 0.5rem;
 }
 
 .movie-name {
@@ -49,9 +49,9 @@ body {
 .btn-action {
   background-color: #d87093;
   text-decoration: none;
-  padding: 10px 20px;
+  padding: 0.5rem 0.8rem;
   border-radius: 5px;
-  margin-right: 3%;
+  margin-right: 0.5rem;
   color: black;
 }
 
@@ -63,7 +63,7 @@ body {
 .btn-thrill {
   background-color: rgb(167, 167, 240);
   text-decoration: none;
-  padding: 10px 20px;
+  padding: 0.5rem 0.8rem;
   border-radius: 5px;
   color: black;
 }
@@ -92,11 +92,13 @@ body {
 .content-1 {
   font-size: 1.8rem;
   font-weight: bold;
+  margin: 0.5rem auto;
 }
 
 .content-2 {
   color: rgb(85, 85, 85);
   font-size: 1.3rem;
+  margin: 0.5rem auto;
 }
 
 /* Smaller Screens */
@@ -158,8 +160,24 @@ body {
     max-width: 150px;
   }
 
+  .content-1 {
+    font-size: 1.2rem;
+  }
+
+  .content-2 {
+    font-size: 1rem;
+  }
+
   .btn-action,
   .btn-thrill {
-    font-size: 0.8  rem;
+    font-size: 0.8 rem;
+  }
+}
+
+@media (max-width: 390px) {
+  .btn-action,
+  .btn-thrill {
+    font-size: 0.8rem;
+    padding: 0.5rem;
   }
 }
